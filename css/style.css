@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 120px;
+}
+header {
+  border-bottom: solid 3px black;
+  margin-bottom: 60px;
+  width: 100%;
+}
+header img {
+  float: left;
+}
+header h1 {
+  font-family: 'Seaweed Script', cursive;
+  margin: 0;
+  position: relative;
+  top: -8px;
+  font-size: 2.55em;
+}
+header p {
+  margin: 0;
+  font-size: .45em;
+  position: relative;
+  top: -20px;
+}
+header div.text-container {
+  margin-left: 10px;
+  display: inline-block;
+  width: 50%;
+}
+nav {
+  float: right;
+}
+nav ul li {
+  display: inline-block;
+  list-style-type: none;
+}
+nav ul :nth-child(7) {
+  margin-left: 5px;
+}
+img.full-width {
+  width: 100%;
+  margin-top: 10px;
+}
+section h2 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 2.8em;
+  margin: 2px 0;
+}
+section .subtitle {
+  font-size: .75em;
+  margin: 0 0 0 5px;
+}
+section button {
+  float: right;
+  position: relative;
+  top: -17px;
+  font-size: 0.75em;
+}
+.instructions p {
+  text-indent: 30px;
+}
+div.recipe {
+  width: 100%;
+  height: auto;
+  background-image: url(../img/list-bg.png);
+  overflow: auto;
+  margin-bottom: 30px;
+}
+.recipe li {
+  font-family: 'Indie Flower', cursive;
+  font-size: 1.1em;
+  list-style-type: none;
+}
+.recipe ul {
+  float: left;
+  width: 50%;
+}
+.recipe input {
+  margin-right: 10px;
+}
+.todo-done {
+  text-decoration: line-through;
+  text-decoration-color: red;
+}
